@@ -1,1 +1,4 @@
-.cpanel.yml
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/azichina/public_html/
+    - /bin/cp -R build/* $DEPLOYPATH
